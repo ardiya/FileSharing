@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ay.filesharing.MainActivity" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="Preferences"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_open_shared_folder"
+        android:orderInCategory="100"
+        android:title="Open Shared Folder"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:title="Login to another Network"
+        app:showAsAction="never"/>
+</menu>

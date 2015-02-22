@@ -1,0 +1,95 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ay.filesharing.ManageUserActivity"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:id="@+id/spinner"
+            android:background="@color/light_blue_A400"
+            android:gravity="center_horizontal"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/light_blue_A400"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:id="@+id/textView"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"/>
+
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="1dp"
+                android:background="@color/light_blue_700"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Role"
+                android:id="@+id/textView2"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"/>
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="1dp"
+                android:background="@color/light_blue_700"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Status"
+                android:id="@+id/textView3"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"/>
+            <View
+                android:layout_height="match_parent"
+                android:layout_width="1dp"
+                android:background="@color/light_blue_700"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Handler"
+                android:id="@+id/textView4"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView1" />
+    </LinearLayout>
+    <com.gc.materialdesign.views.ButtonFloat
+        android:id="@+id/buttonFloat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="24dp"
+        android:background="@color/pink_400"
+        android:onClick="createUser"
+        materialdesign:animate="true"
+        materialdesign:iconDrawable="@drawable/ic_add_white_36dp" />
+</RelativeLayout>

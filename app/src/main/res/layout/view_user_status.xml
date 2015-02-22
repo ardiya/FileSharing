@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:weightSum="4">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:id="@+id/textView1"
+        android:textColor="@color/grey_600"
+        android:singleLine="true"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Role"
+        android:id="@+id/textView2"
+        android:textColor="@color/grey_600"
+        android:singleLine="true"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:id="@+id/textView3"
+        android:textColor="@color/grey_600"
+        android:singleLine="true"
+        android:layout_weight="1" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Handler"
+        android:id="@+id/textView4"
+        android:textColor="@color/grey_600"
+        android:singleLine="true"
+        android:layout_weight="1" />
+
+</LinearLayout>

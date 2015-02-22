@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ay.filesharing.FileUploadActivity" >
+
+	<android.support.v4.widget.SwipeRefreshLayout
+	    android:id="@+id/swipe_container"
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1">
+	    <ListView android:id="@+id/listView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	    />
+	</android.support.v4.widget.SwipeRefreshLayout>
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:background="@color/light_blue_500"
+	    android:id="@+id/button1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"	    
+	    android:text="Send"
+	    android:onClick="upload"
+	    />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap xmlns:android="http://schemas.android.com/apk/res/android"
+    android:src="@drawable/bg_login"
+    android:antialias="true"
+    android:gravity="clip_vertical"
+    android:tileMode="mirror">
+</bitmap>

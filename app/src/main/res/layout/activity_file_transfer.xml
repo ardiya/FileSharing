@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.ay.filesharing.FileTransferActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/ImageButton01"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="home"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_home" />
+
+        <LinearLayout
+            android:id="@+id/layoutHistory"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:drawSelectorOnTop="true"
+        android:longClickable="true" >
+    </ListView>
+
+</LinearLayout>
